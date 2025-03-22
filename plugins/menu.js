@@ -33,8 +33,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃❍┃• *𝖠nímєmєnu*
 ┃❍┃• *𝖢σnvєrtmєnu*
 ┃❍┃• *𝖥unmєnu*
+┃❍┃• *𝖱єαctíσnmєnu*
 ┃❍┃• *𝖣lmєnu*
-┃❍┃• *𝖲єttíngѕmєnu
+┃❍┃• *𝖲єttíngѕmєnu*
 ┃❍┃• *𝖫ístmєnu*
 ┃❍┃• *𝖬αínmєnu*
 ┃❍┃• *𝖦rσupmєnu*
@@ -58,7 +59,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363302677217436@newsletter',
+                        newsletterJid: '120363351424590490@newsletter',
                         newsletterName: '𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃👻⚡',
                         serverMessageId: 143
                     }
@@ -140,7 +141,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '12036330267721743@newsletter',
+                        newsletterJid: '120363351424590490@newsletter',
                         newsletterName: 'CASEYRHODES-XMD💖🦄',
                         serverMessageId: 143
                     }
@@ -218,9 +219,75 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '12036330267721743@newsletter',
+                        newsletterJid: '120363351424590490@newsletter',
                         newsletterName: 'CASEYRHODES-XMD 💖🦄',
                         serverMessageId: 143
+                    }
+                }
+            },
+            { quoted: mek }
+        );
+
+    } catch (e) {
+        console.log(e);
+        reply(`${e}`);
+    }
+});
+
+cmd({
+    pattern: "reactionmenu",
+    desc: "Shows the reaction commands",
+    category: "menu",
+    react: "💫",
+    filename: __filename
+}, 
+async (conn, mek, m, { from, quoted, reply }) => {
+    try {
+        let dec = `╭━━〔 *Reactions Menu* 〕━━┈⊷
+┃◈╭─────────────·๏
+┃◈┃• bully 
+┃◈┃• cuddle 
+┃◈┃• cry 
+┃◈┃• hug 
+┃◈┃• awoo 
+┃◈┃• kiss 
+┃◈┃• lick 
+┃◈┃• pat 
+┃◈┃• smug 
+┃◈┃• bonk
+┃◈┃• yeet 
+┃◈┃• blush 
+┃◈┃• smile
+┃◈┃• wave 
+┃◈┃• highfive 
+┃◈┃• handhold 
+┃◈┃• nom 
+┃◈┃• bite 
+┃◈┃• glomp 
+┃◈┃• slap
+┃◈┃• kill
+┃◈┃• happy
+┃◈┃• wink 
+┃◈┃• poke 
+┃◈┃• dance 
+┃◈┃• cringe 
+┃◈└───────────┈⊷
+╰──────────────┈⊷
+> ${config.DESCRIPTION}`;
+
+        await conn.sendMessage(
+            from,
+            {
+                image: { url: `https://files.catbox.moe/52dotx.jpg` },
+                caption: dec,
+                contextInfo: {
+                    mentionedJid: [m.sender],
+                    forwardingScore: 999,
+                    isForwarded: true,
+                    forwardedNewsletterMessageInfo: {
+                        newsletterJid: '120363351424590490@newsletter',
+                        newsletterName: 'CASEYRHODES-XMD 💖🦄',
+                        serverMessageId: 144
                     }
                 }
             },
@@ -289,7 +356,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '12036330267721743@newsletter',
+                        newsletterJid: '120363351424590490@newsletter',
                         newsletterName: 'CASEYRHODES-XMD 💖🦄',
                         serverMessageId: 143
                     }
@@ -353,7 +420,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '12036330267721743@newsletter',
+                        newsletterJid: '120363351424590490@newsletter',
                         newsletterName: 'CASEYRHODES-XMD',
                         serverMessageId: 143
                     }
@@ -412,7 +479,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '12036330267721743@newsletter',
+                        newsletterJid: '120363351424590490@newsletter',
                         newsletterName: 'CASEYRHODES-XMD 💖🦄',
                         serverMessageId: 143
                     }
@@ -464,7 +531,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '12036330267721743@newsletter',
+                        newsletterJid: '120363351424590490@newsletter',
                         newsletterName: 'CASEYRHODES-XMD 💖🦄',
                         serverMessageId: 143
                     }
@@ -530,7 +597,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '12036330267721743@newsletter',
+                        newsletterJid: '120363351424590490@newsletter',
                         newsletterName: 'CASEYRHODES-XMD 💖🦄',
                         serverMessageId: 143
                     }
@@ -579,7 +646,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '12036330267721743@newsletter',
+                        newsletterJid: '120363351424590490@newsletter',
                         newsletterName: 'CASEYRHODES-XMD 💖🦄',
                         serverMessageId: 143
                     }
@@ -648,7 +715,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '12036330267721743@newsletter',
+                        newsletterJid: '120363351424590490@newsletter',
                         newsletterName: 'CASEYRHODES-XMD 💖🦄',
                         serverMessageId: 143
                     }
@@ -699,7 +766,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '12036330267721743@newsletter',
+                        newsletterJid: '120363351424590490@newsletter',
                         newsletterName: 'CASEYRHODES-XMD 💖🦄',
                         serverMessageId: 143
                     }
