@@ -62,7 +62,7 @@ cmd({
 */
  // Send the status message with an image
         await conn.sendMessage(from, { 
-            image: { url: `https://i.ibb.co/XkD69sBq/mrfrankofc.jpg` },  // Image URL
+            image: { url: `https://i.ibb.co/Dgsd20dk/lordcasey.jpg` },  // Image URL
             caption: caption,
             contextInfo: {
                 mentionedJid: [m.sender],
@@ -70,7 +70,7 @@ cmd({
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363302677217436@newsletter',
-                    newsletterName: '『 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃 』',
+                    newsletterName: '『 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐗𝐌𝐃 𝐒𝐇𝐎𝐑𝐓 𝐔𝐑𝐋 』',
                     serverMessageId: 143
                 }
             }
