@@ -1,0 +1,136 @@
+{
+    "bot-name": "CASEYRHODES XMD",
+    "description": "CASEYRHODES XMD made for people on Earth",
+    "logo": "https://i.ibb.co/WNzz5RJV/lordcasey.jpg",
+    "keywords": ["bot"],
+    "documentation-link": "https://pairs-rzev.onrender.com/",
+    "owner-verification":"palvinkibet46@gmail.com",
+  
+    "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "value": ""
+      "required": true,
+    },  
+    
+    "ALIVE_IMG": {
+      "description": "paste your image url if you don't have you can use this public url.",
+      "value": "https://i.ibb.co/WNzz5RJV/lordcasey.jpg"
+      "required": true,
+    }, 
+    
+    "ALIVE_MSG": {
+      "description": "paste your alive message hear.",
+      "value": "ʜɪɪ ᴍʏ ᴅᴇᴀʀ ғʀɪᴇɴᴅ ɪᴍ ᴀʟɪᴠᴇ ɴᴏᴡ.!!"
+      "required": true,
+    },
+    
+    "PREFIX": {
+      "description": "paste your bot prefix note! Don't apply null prefix.",
+      "value": "."
+      "required": true,
+    },
+    
+    "MODE": {
+      "description": "select your bot work type public-private-inbox-group.",
+      "value": "public"
+      "required": true,
+    }, 
+
+    "AUTO_VOICE": {
+      "description": "Make it true if you want bot auto voice.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "AUTO_REPLY": {
+      "description": "Make it true if you want bot auto reply.",
+      "required": true,
+      "value": "true"
+    }, 
+
+    "AUTO_TYPING": {
+      "description": "Make it true if you want auto typing.",
+      "required": false,
+      "value": "false"
+    },
+
+    "AUTO_STICKER": {
+      "description": "Make it true if you want bot auto sticker.",
+      "required": true,
+      "value": "false"
+    }, 
+
+    "AUTO_READ_STATUS": {
+      "description": "Make it true if you want bot auto auto_read_status.",
+      "required": true,
+      "value": "false"
+    }, 
+
+    "ANTI_LINK": {
+      "description": "Make it true if you want bot auto remove group link.",
+      "required": true,
+      "value": "true"
+    },
+
+    "ANTI_BAD": {
+      "description": "Make it true if you want bot auto delete bad words from group example xxx porn etc.",
+      "required": true,
+      "value": "true"
+    }, 
+
+   "CURRENT_STATUS": {
+      "description": "Make it true if want automatic voice reply .",
+      "required": false,
+      "value": "false"
+    }, 
+
+    "FAKE_RECORDING": {
+      "description": "Make it true if you want bot fake record.",
+      "value": "false"
+      "required": true,
+    },
+
+    "AUTO_REACT": {
+      "description": "Make it true if you want bot AutoReact.",
+      "value": "false"
+      "required": true,
+    },
+
+    "OWNER_REACT": {
+      "description": "Make it true if you want bot OwnerReact.",
+      "value": "false"
+      "required": true,
+    
+    }, 
+
+   "ALWAYS_ONLINE": {
+      "description": "Make it true if want automatic voice reply .",
+      "value": "true"
+      "required": false,
+    }, 
+    "BOT_NAME": {
+      "description": "write hear your name.",
+      "value": "ᴄᴀsᴇʏʀʜᴏᴅᴇs xᴍᴅ"
+      "required": true,
+    }, 
+
+    "HEART_REACT": {
+      "description": "Make it true if you want bot only heart ♥️ emjois reaction .",
+      "value": "false",
+      "required": true,
+    }, 
+
+    "READ_MESSAGE": {
+      "description": "Make it true if you want bot read your all sms just now.",
+      "value": "false"
+      "required": true,
+    }, 
+    "CAPTION": {
+      "description": "enter your caption if you want to show on menu.",
+      "value": "*`𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐓𝐄𝐂𝐇`*"
+      "required": true,        
+      }
+    }
+  
+}
