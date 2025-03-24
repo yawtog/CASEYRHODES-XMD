@@ -37,9 +37,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃❍┃• *𝖣lmєnu*
 ┃❍┃• *𝖲єttíngѕmєnu*
 ┃❍┃• *𝖫ístmєnu*
-┃❍┃• *𝖤pl*
-┃❍┃• *𝖲tαndíngѕ*
-┃❍┃• *𝖤plrєѕultѕ*
 ┃❍┃• *𝖬αínmєnu*
 ┃❍┃• *𝖳єmpmαíl*
 ┃❍┃• *𝖦rσupmєnu*
