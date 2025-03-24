@@ -20,7 +20,7 @@ cmd({
         const text = q;  // Texte de la requête de l'utilisateur
         const encodedText = encodeURIComponent(text);  // S'assurer que le texte est encodé correctement
 
-        const url = `https://api.dreaded.site/api/chatgpt?text=${encodedText}`;
+        const url = `https://api.gurusensei.workers.dev/llama?prompt=${encodedText}`;
 
         console.log('Requesting URL:', url);  // Afficher l'URL pour vérifier
 
