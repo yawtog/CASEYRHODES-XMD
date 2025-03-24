@@ -1,20 +1,3 @@
-/*
-_  ______   _____ _____ _____ _   _
-| |/ / ___| |_   _| ____/___ | | | |
-| ' / |  _    | | |  _|| |   | |_| |
-| . \ |_| |   | | | |__| |___|  _  |
-|_|\_\____|   |_| |_____\____|_| |_|
-
-ANYWAY, YOU MUST GIVE CREDIT TO MY CODE WHEN COPY IT
-CONTACT ME HERE +237656520674
-YT: KermHackTools
-Github: Kgtech-cmr
-*/
-
-const axios = require('axios');
-const config = require('../config');
-const { cmd, commands } = require('../command');
-
 const fs = require("fs");
 
 cmd({
@@ -29,9 +12,9 @@ cmd({
     try {
         if (!m.quoted) return reply("Please reply to a ViewOnce message.");
 
-        const mime = m.quoted.type;
+        const mime = m.quoted.mtype;
         let ext, mediaType;
-        
+
         if (mime === "imageMessage") {
             ext = "jpg";
             mediaType = "image";
@@ -45,20 +28,26 @@ cmd({
             return reply("Unsupported media type. Please reply to an image, video, or audio message.");
         }
 
-        var buffer = await m.quoted.download();
-        var filePath = `${Date.now()}.${ext}`;
+        if (!m.quoted.message) return reply("Unable to retrieve the message. Ensure it's a ViewOnce media.");
 
-        fs.writeFileSync(filePath, buffer); 
+        let buffer = await m.quoted.download();
+        let filePath = `./temp/${Date.now()}.${ext}`;
+
+        fs.writeFileSync(filePath, buffer);
 
         let mediaObj = {};
-        mediaObj[mediaType] = fs.readFileSync(filePath);
+        mediaObj[mediaType] = { url: filePath };
 
-        await conn.sendMessage(m.chat, mediaObj);
+        await conn.sendMessage(from, mediaObj, { caption: `🔁 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴄᴀsᴇʏʀʜᴏᴅᴇs ᴛᴇᴄʜ ${mediaType}` });
 
-        fs.unlinkSync(filePath);
+        setTimeout(() => {
+            fs.unlink(filePath, (err) => {
+                if (err) console.error("File deletion error:", err);
+            });
+        }, 5000);
 
     } catch (e) {
-        console.log("Error:", e);
-        reply("An error occurred while fetching the ViewOnce message.", e);
+        console.error("Error:", e);
+        reply("An error occurred while fetching the ViewOnce message.");
     }
 });
