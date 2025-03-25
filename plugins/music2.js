@@ -33,7 +33,7 @@ cmd({
     }
 
     // Fetch download link from API
-    const { data } = await axios.get(`https://bandahealimaree-api-ytdl.hf.space/api/ytmp3?url=${videoUrl}`);
+    const { data } = await axios.get(`https://apis.davidcyriltech.my.id/download/ytmp4?url=${videoUrl}`);
     if (!data.status) return reply("*Failed to fetch video!*");
 
     const ytData = searchData || {
