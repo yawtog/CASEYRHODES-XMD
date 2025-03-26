@@ -1,6 +1,5 @@
-<p align="center">
-  <h1 align="center">𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒-𝐗𝐌𝐃</h1>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:87CEEB,100:87CEEB&height=180&section=header&text=CASEYRHODES%20XMD%20WHATSAPP%20BOT&fontSize=38&fontColor=ffffff&fontFamily=Roboto&animation=twinkling" width="100%"/>
+
 
 > **`Updated` CASEYRHODES XMD with Latest Features**
 
