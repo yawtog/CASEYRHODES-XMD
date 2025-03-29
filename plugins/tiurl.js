@@ -41,9 +41,9 @@ cmd({
 
     let apiUrl = '';
     if (command === 'tiny' || command === 'tinyurl') {
-      apiUrl = `https://bk9.fun/tools/shorten?url=$${encodeURIComponent(q)}`;
+      apiUrl = `https://tinyurl.com/api-create.php?url=${encodeURIComponent(q)}`;
     } else {
-      apiUrl = `https://bk9.fun/tools/shorten?url=${encodeURIComponent(q)}`;
+      apiUrl = `https://tinyurl.com/api-create.php?url=${encodeURIComponent(q)}`;
     }
 
     await reply('> *Shortening URL...*');
