@@ -80,6 +80,11 @@ You will need a session ID to run CASEYRHODES-XMD. Click the button below to obt
 <p align="left">
 <a href='https://dashboard.heroku.com/new?template=https://github.com/caseyweb/CASEYRHODES-XMD' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Heroku%20Deploy-purple?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 </p>
+## <h4 align="">2. TALKDROVE FREE</h4>
+<p style="text-align: center; font-size: 1.2em;">
+  
+<p align="">
+<a href='https://talkdrove.com/share-bot/11' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-TalkDrove ‎Deploy-6971FF?style=for-the-badge&logo=Github&logoColor=white'/< width=150 height=28/p></a>
 
 <h4 align="left">2. 𝐊𝐎𝐘𝐄𝐁</h4>
 <p align="left">
