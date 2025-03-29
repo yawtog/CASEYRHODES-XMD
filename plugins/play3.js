@@ -59,7 +59,7 @@ cmd({
   }
 });
 cmd({
-  'pattern': "playpro",
+  'pattern': "play",
   'alias': ["yta2", "ytplay2"],
   'react': '⏳',
   'desc': "Download audio from YouTube by searching for keywords.",
@@ -76,7 +76,7 @@ cmd({
     if (!_0x356223) {
       return _0x377273("*Please provide a audio title or url*");
     }
-    _0x377273("> © cαѕєчrhσdєѕ íѕ gєnєrαtíng чσur ѕσng wqít....");
+    _0x377273("> 🎼 ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴀᴜᴅɪᴏ....... ᴘʟᴇᴀsᴇ  ᴡᴀɪᴛ ғᴏʀ cαѕєчrhσdєѕ хmd ᴜsᴇʀ!🎶");
     const _0x271698 = await yts(_0x356223);
     if (!_0x271698.videos || _0x271698.videos.length === 0x0) {
       return _0x377273("❌ No results found for \"" + _0x356223 + "\".");
