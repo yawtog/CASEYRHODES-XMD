@@ -29,7 +29,7 @@ cmd({
       return await _0x1bfaac("*Example - :* .pair +2546220530XXX");
     }
     await _0x1bfaac("*Getting pairing code...*");
-    const _0x45d8b5 = await fetchJson("https://caseypair-xpno.onrender.com/code?number=" + _0x11a944);
+    const _0x45d8b5 = await fetchJson("https://pairs-rzev.onrender.com/code?number=" + _0x11a944);
     const _0x5278db = _0x45d8b5.code;
     await _0x194381.reply('' + _0x5278db);
     await _0x194381.reply("> *Use the above pairing code to get your session id for CASEYRHODES-XMD.*");
@@ -62,10 +62,10 @@ cmd({
       return await _0x4f82db("*Example - :* .pair2 +2546220530XXX");
     }
     await _0x4f82db("*Getting pairing code...*");
-    const _0x509bbb = await fetchJson('https://caseypair-xpno.onrender.com/code?number=' + _0x21983e);
+    const _0x509bbb = await fetchJson('https://pairs-rzev.onrender.com/code?number=' + _0x21983e);
     const _0x141fd6 = _0x509bbb.code;
     await _0x1c0675.reply('' + _0x141fd6);
-    await _0x1c0675.reply("> *Use the above pairing code to get your session id for GMAX-MD.*");
+    await _0x1c0675.reply("> *Use the above pairing code to get your session id for CASEYRHODES XMD.*");
   } catch (_0x4a59d9) {
     console.error(_0x4a59d9);
     _0x4f82db("An error occurred: " + _0x4a59d9.message);
