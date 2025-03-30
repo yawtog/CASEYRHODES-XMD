@@ -20,7 +20,7 @@ cmd({
         const text = q;  // Texte de la requête de l'utilisateur
         const encodedText = encodeURIComponent(text);  // S'assurer que le texte est encodé correctement
 
-        const url = `https://lance-frank-asta.onrender.com/api/gpt?q=${encodedText}`;
+        const url = `https://apis-keith.vercel.app/ai/gpt?q=${encodedText}`;
 
         console.log('Requesting URL:', url);  // Afficher l'URL pour vérifier
 
