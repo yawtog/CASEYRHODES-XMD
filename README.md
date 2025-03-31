@@ -25,7 +25,7 @@
 
 
 <p align="center">
-<a href="https://github.com/caseyweb"><img title="Author" src="https://files.catbox.moe/9l3w1g.jpg?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/caseyweb"><img title="Author" src="https://i.ibb.co/BKfyK88F/shaban-md.jpg?style=for-the-badge&logo=github"></a>
 
 
 
