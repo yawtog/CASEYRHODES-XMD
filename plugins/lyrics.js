@@ -100,7 +100,7 @@ cmd({
         reply(`🎵 Searching for lyrics of "${title}" by ${artist}...`);
 
         // Fetch lyrics using an API
-        const response = await axios.get(`https://api.lyrics.ovh/v1/${encodeURIComponent(artist)}/${encodeURIComponent(title)}`);
+        const response = await axios.get(`https://api.dreaded.site/api/lyrics?title=${encodeURIComponent(artist)}/${encodeURIComponent(title)}`);
         const lyrics = response.data.lyrics;
 
         if (!lyrics) {
