@@ -59,7 +59,7 @@ cmd({
   }
 });
 cmd({
-  'pattern': "playpro",
+  'pattern': "play",
   'alias': ["yta2", "ytplay2"],
   'react': '⏳',
   'desc': "Download audio from YouTube by searching for keywords.",
