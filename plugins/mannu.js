@@ -3,7 +3,7 @@ import fs from 'fs';
 import os from 'os';
 import pkg from '@whiskeysockets/baileys';
 const { generateWAMessageFromContent, proto } = pkg;
-import config from '../config.cjs';
+import config from '../config.js';
 import axios from 'axios';
 
 // Get total memory and free memory in bytes
