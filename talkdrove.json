@@ -26,12 +26,7 @@
       "description": "type your sticker pack name.",
       "required": false,
       "value": "x-𝚆.𝙰 𝙱𝙾𝚃"
-    }, 
-      
-    "PREFIX": {
-      "description": "paste your bot prefix note! Don't apply null prefix.",
-      "required": false,
-      "value": "."
+  
     },
     
     "MODE": {
@@ -160,12 +155,7 @@
       "description": "put here custom react react emojis.",
       "required": false,
       "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
-    }, 
     
-    "ANTI_DEL_PATH": {
-      "description": "change it to -same- if you want to resend deleted message in same chat",
-      "required": false,
-      "value": "log"
     }, 
 
     "READ_MESSAGE": {
