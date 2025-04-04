@@ -31,7 +31,7 @@ cmd({
 
     if (spotifyTrack) {
       const trackStream = await axios({
-        url: `https://spotifyapi.caliphdev.com/api/download/track?url=${encodeURIComponent(spotifyTrack.url)}`,
+        url: `https://apis-keith.vercel.app/download/spotify?q=${encodeURIComponent(spotifyTrack.url)}`,
         method: "GET",
         responseType: 'stream'
       });
