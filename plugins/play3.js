@@ -98,7 +98,7 @@ cmd({
     const videoUrl = searchResults.videos[0].url;
 
     // Fetch MP3 download link using the new API
-    const apiUrl = `https://apis.davidcyriltech.my.id/youtube/mp3?url=${videoUrl}`;
+    const apiUrl = `https://apis-keith.vercel.app/download/dlmp3?url=${videoUrl}`;
     const response = await axios.get(apiUrl);
 
     if (!response.data.success || !response.data.result.downloadUrl) {
