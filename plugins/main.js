@@ -15,15 +15,15 @@ cmd({
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
-┃★╭──────────────
-┃★│ *Owner* : ${config.OWNER_NAME}
-┃★│ *Baileys* : Multi Device
-┃★│ *Type* : NodeJs
-┃★│ *Platform* : Heroku
-┃★│ *Mode* : [${config.MODE}]
-┃★│ *Prefix* : [${config.PREFIX}]
-┃★│ *Version* : 1.0.0
-┃★╰──────────────
+┃❍⁠⁠⁠⁠╭──────────────
+┃❍⁠⁠⁠⁠│ *ᴏᴡɴᴇʀ* : ${config.OWNER_NAME}
+┃❍⁠⁠⁠⁠│ *ʙᴀɪʟᴇʏs* : Multi Device
+┃❍⁠⁠⁠⁠│ *ᴛʏᴘᴇ* : Node.Js
+┃❍⁠⁠⁠⁠│ *ᴘʟᴀᴛғᴏʀᴍ* : Heroku
+┃❍⁠⁠⁠⁠│ *ᴍᴏᴅᴇ* : [${config.MODE}]
+┃❍⁠⁠⁠⁠│ *ᴘʀᴇғɪx* : [${config.PREFIX}]
+┃❍⁠⁠⁠⁠│ *ᴠᴇʀsɪᴏɴ* : 1.0.0
+┃❍⁠⁠⁠⁠╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *Download Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
@@ -220,6 +220,39 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈┃• trt
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
+*╭───❍「 LOGO 𝖫𝖨𝖲𝖳 」❍*
+‎*├⬡ .ɴᴇᴏɴʟɪɢʜᴛ*
+‎*├⬡ .ʙʟᴀᴄᴋᴘɪɴᴋ*
+‎*├⬡ .ᴅʀᴀɢᴏɴʙᴀʟʟ*
+‎*├⬡ .𝟹ᴅᴄᴏᴍɪᴄ*
+‎*├⬡ .ᴀᴍᴇʀɪᴄᴀ*
+‎*├⬡ .ɴᴀʀᴜᴛᴏ*
+‎*├⬡ .sᴀᴅɢɪʀʟ*
+‎*├⬡ .ᴄʟᴏᴜᴅs*
+‎*├⬡ .ғᴜᴛᴜʀɪsᴛɪᴄ*
+‎*├⬡ .𝟹ᴅᴘᴀᴘᴇʀ*
+‎*├⬡ .ᴇʀᴀsᴇʀ*
+‎*├⬡ .sᴜɴsᴇᴛ*
+‎*├⬡ .ʟᴇᴀғ*
+‎*├⬡ .ɢᴀʟᴀxʏ*
+‎*├⬡ .sᴀɴs*
+‎*├⬡ .ʙᴏᴏᴍ*
+‎*├⬡ .ʜᴀᴄᴋᴇʀ*
+‎*├⬡ .ᴅᴇᴠɪʟᴡɪɴɢs*
+‎*├⬡ .ɴɪɢᴇʀɪᴀ*
+‎*├⬡ .ʙᴜʟʙ*
+‎*├⬡ .ᴀɴɢᴇʟᴡɪɴɢs*
+‎*├⬡ .ᴢᴏᴅɪᴀᴄ*
+‎*├⬡ .ʟᴜxᴜʀʏ*
+‎*├⬡ .ᴘᴀɪɴᴛ*
+‎*├⬡ .ғʀᴏᴢᴇɴ*
+‎*├⬡ .ᴄᴀsᴛʟᴇ*
+‎*├⬡ .ᴛᴀᴛᴏᴏ*
+‎*├⬡ .ᴠᴀʟᴏʀᴀɴᴛ*
+‎*├⬡ .ʙᴇᴀʀ*
+‎*├⬡ .ᴛʏᴘᴏɢʀᴀᴘʜʏ*
+‎*├⬡ .ʙɪʀᴛʜᴅᴀʏ*
+‎*╰───────────────❍*
 ╭━━〔 *Ai Menu* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• ai
@@ -326,7 +359,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             ptt: true
         }, { quoted: mek });
         
-    } catch (e) {
+    } catch (e) 
         console.log(e);
         reply(`${e}`);
     }
