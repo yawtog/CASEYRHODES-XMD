@@ -20,7 +20,7 @@ cmd({
         const text = q;  // Texte de la requête de l'utilisateur
         const encodedText = encodeURIComponent(text);  // S'assurer que le texte est encodé correctement
 
-        const url = `https://apis-keith.vercel.app/ai/gpt?q=${encodedText}`;
+        const url = `https://apis.davidcyriltech.my.id/ai/llama3?text=${encodedText}`;
 
         console.log('Requesting URL:', url);  // Afficher l'URL pour vérifier
 
@@ -91,7 +91,7 @@ Please report this issue or try again later.
     }
 });
 cmd({
-    pattern: "google",
+    pattern: "ai",
     desc: "Get a response from Llama3 AI using the provided prompt.",
     category: "ai",
     react: "🤖",
