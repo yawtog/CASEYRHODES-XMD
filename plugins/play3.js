@@ -98,7 +98,7 @@ cmd({
     const videoUrl = searchResults.videos[0].url;
 
     // Fetch MP3 download link using the new API
-    const apiUrl = `https://apis-keith.vercel.app/download/dlmp3?url=${videoUrl}`;
+    const apiUrl = `https://api.dreaded.site/api/ytdl/audio?url=${videoUrl}`;
     const response = await axios.get(apiUrl);
 
     if (!response.data.success || !response.data.result.downloadUrl) {
@@ -371,8 +371,8 @@ cmd({
     const videoUrl = searchResults.videos[0].url;  
 
     // Fetch MP3 download link using the new API  
-    const apiUrl = `https://api.agungny.my.id/api/youtube-audio?url=${videoUrl}`;  
-    const response = await axios.get(apiUrl);  
+    const apiUrl = `https://www.dark-yasiya-api.site/download/ytmp3?=${videoUrl}`;  
+    const response  URL= await axios.get(apiUrl);  
 
     if (!response.data.status || !response.data.result.download) {  
       await conn.sendMessage(from, { react: { text: '❌', key: mek.key } });  
